@@ -47,3 +47,7 @@ class DatasetTests(unittest.TestCase):
             generate_dataset("random", -1)
         with self.assertRaises(TypeError):
             generate_dataset("random", 1.5)
+
+
+if __name__ == "__main__":
+    unittest.main()
