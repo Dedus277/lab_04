@@ -10,7 +10,7 @@ from .sorting import insertion_sort, merge_sort
 
 SIZES = (100_000, 1_000_000, 10_000_000)
 REPEATS = 5
-QUADRATIC_DATASETS = ("random", "reverse", "duplicates")
+QUADRATIC_DATASETS = ("random", "reverse", "duplicates")# типы списков, на которых сортировка вставками медленная
 SLOW_INSERTION_MIN_SIZE = 100_000
 
 
